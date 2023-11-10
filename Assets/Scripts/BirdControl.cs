@@ -32,7 +32,6 @@ public class BirdControl : MonoBehaviour
     // 충돌시 게임 오버
     void OnCollisionEnter(Collision coll)
     {
-        Debug.Log("GameOver");
         Time.timeScale = 0;
     }
 }
