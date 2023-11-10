@@ -9,10 +9,10 @@ public class GroundMove : MonoBehaviour
     int _index = 2;
 
     public GameObject[] grounds;
-    //void Awake()
-    //{
-    //    Application.targetFrameRate = 40;   
-    //}
+    void Awake()
+    {
+        Application.targetFrameRate = 40;
+    }
 
     // Start is called before the first frame update
     void Start()
