@@ -18,7 +18,7 @@ public class BirdControl : MonoBehaviour
         if(Input.GetMouseButtonDown(0)) 
         {
             gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
-            gameObject.GetComponent<Rigidbody>().AddForce(0, 300, 0);
+            gameObject.GetComponent<Rigidbody>().AddForce(0, 250, 0);
         }
 
         // R버튼 누를시 게임 초기화 및 재시작
